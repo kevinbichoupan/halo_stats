@@ -4,11 +4,13 @@
 ####################################
 
 import pandas as pd
+pd.options.mode.chained_assignment = None
+
 
 ####################################
 # Data Import
 ####################################
-
+print('\n\n\n')
 data = pd.read_csv('halo_data.csv')
 print('Data Imported')
 
@@ -236,6 +238,6 @@ Master Chief
 
 send_mail(sender, mailing_list, subject, body, server, port, gmail_user, gmail_password)
 
-
+print('\n\n\n')
 
 
