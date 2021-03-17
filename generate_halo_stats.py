@@ -62,9 +62,11 @@ cum_all_stats['avg deaths per game'] = round(cum_all_stats['total_deaths'] / cum
 # Recent Player Stat Generation
 ####################################
 
-recent_date = data.Date.max()
+data['Datetime'] = pd.to_datetime(data['Date'])
+recent_date = data.Datetime.max()
+recent_date_str = data[data['Datetime'] == recent_date].Date.max()
 
-recent_overall_stats = pd.DataFrame(data.loc[data['Date'] == recent_date].groupby('Player').agg(
+recent_overall_stats = pd.DataFrame(data.loc[data['Datetime'] == recent_date].groupby('Player').agg(
     total_games = pd.NamedAgg(column = 'Game Number', aggfunc = 'count')
     ,total_wins = pd.NamedAgg(column = 'win_ind', aggfunc = sum)
     ,total_kills = pd.NamedAgg(column = 'Kills', aggfunc = sum)
@@ -74,7 +76,7 @@ recent_overall_stats = pd.DataFrame(data.loc[data['Date'] == recent_date].groupb
 
 recent_overall_stats['Map'] = 'Overall'
 
-recent_map_stats = pd.DataFrame(data.loc[data['Date'] == recent_date].groupby(['Player', 'Map']).agg(
+recent_map_stats = pd.DataFrame(data.loc[data['Datetime'] == recent_date].groupby(['Player', 'Map']).agg(
     total_games = pd.NamedAgg(column = 'Game Number', aggfunc = 'count')
     ,total_wins = pd.NamedAgg(column = 'win_ind', aggfunc = sum)
     ,total_kills = pd.NamedAgg(column = 'Kills', aggfunc = sum)
@@ -148,7 +150,7 @@ for i in maps:
 
 	vertical_buffer = len(cum_total_games) + 4
 
-	worksheet.write(0 + vertical_buffer, 0, i + ' -- Recent Halo Night On ' + recent_date)
+	worksheet.write(0 + vertical_buffer, 0, i + ' -- Recent Halo Night On ' + recent_date_str)
 	worksheet.write(1+ vertical_buffer, 1, 'Total Games')
 	rec_total_games.to_excel(writer, sheet_name = i, startrow = 2 + vertical_buffer, startcol = 0)
 	worksheet.write(1+ vertical_buffer, 5, 'Total Wins')
@@ -222,13 +224,12 @@ server = configs['server']
 port = int(configs['port'])
 
 sender = 'Master Chief'
-subject = "Halo Tuesday Statline - " + recent_date
+subject = "Halo Tuesday Statline - " + recent_date_str
 body = """
 Soldiers,
 
 Cheers to another successful Halo Tuesday.
 
-Love,
 Master Chief
 """
 
