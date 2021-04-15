@@ -11,14 +11,14 @@ pd.options.mode.chained_assignment = None
 # Data Import
 ####################################
 print('\n\n\n')
-data = pd.read_csv('halo_data.csv')
+raw_data = pd.read_csv('halo_data.csv')
 print('Data Imported')
-
 
 ####################################
 # Data Clean
 ####################################
 
+data = raw_data.copy()
 data['kd_spread'] = data['Kills'] - data['Deaths']
 data['kd_ratio'] = data['Kills']/data['Deaths']
 data['win_ind'] = 0
@@ -94,6 +94,44 @@ rec_all_stats['avg assists per game'] = round(rec_all_stats['total_assists'] / r
 rec_all_stats['avg deaths per game'] = round(rec_all_stats['total_deaths'] / rec_all_stats['total_games'], 1)
 
 
+
+###################################
+# Historical Stat Generation
+###################################
+
+historical_overall_stats = pd.DataFrame(data.groupby(['Date', 'Player']).agg(
+    total_games = pd.NamedAgg(column = 'Game Number', aggfunc = 'count')
+    ,total_wins = pd.NamedAgg(column = 'win_ind', aggfunc = sum)
+    ,total_kills = pd.NamedAgg(column = 'Kills', aggfunc = sum)
+    ,total_assists = pd.NamedAgg(column = 'Assists', aggfunc = sum)
+    ,total_deaths = pd.NamedAgg(column = 'Deaths', aggfunc = sum)
+)).reset_index()
+
+historical_overall_stats['Map'] = 'Overall'
+
+historical_map_stats = pd.DataFrame(data.groupby(['Date', 'Player', 'Map']).agg(
+    total_games = pd.NamedAgg(column = 'Game Number', aggfunc = 'count')
+    ,total_wins = pd.NamedAgg(column = 'win_ind', aggfunc = sum)
+    ,total_kills = pd.NamedAgg(column = 'Kills', aggfunc = sum)
+    ,total_assists = pd.NamedAgg(column = 'Assists', aggfunc = sum)
+    ,total_deaths = pd.NamedAgg(column = 'Deaths', aggfunc = sum)
+)).reset_index()
+
+historical_all_stats = pd.concat([historical_overall_stats, historical_map_stats], sort=False)
+
+historical_all_stats['win_percentage'] = round(historical_all_stats['total_wins'] / historical_all_stats['total_games'] * 100, 1)
+historical_all_stats['k/d ratio'] = round(historical_all_stats['total_kills'] / historical_all_stats['total_deaths'], 2)
+historical_all_stats['k/d spread'] = historical_all_stats['total_kills'] - historical_all_stats['total_deaths']
+historical_all_stats['avg kills per game'] = round(historical_all_stats['total_kills'] / historical_all_stats['total_games'], 1)
+historical_all_stats['avg assists per game'] = round(historical_all_stats['total_assists'] / historical_all_stats['total_games'], 1)
+historical_all_stats['avg deaths per game'] = round(historical_all_stats['total_deaths'] / historical_all_stats['total_games'], 1)
+
+historical_all_stats['Datetime'] = pd.to_datetime(historical_all_stats['Date'])
+
+historical_all_stats = historical_all_stats.sort_values(['Player', 'Map' ,'Datetime'])
+historical_all_stats = historical_all_stats.drop(columns = 'Datetime').reset_index()
+
+
 ####################################
 # Create 'THE Halo Statline.xlsx'
 ####################################
@@ -163,6 +201,26 @@ for i in maps:
 	rec_avg_stats.to_excel(writer, sheet_name = i, startrow = 2 + vertical_buffer, startcol = 16)
 	worksheet.write(1+ vertical_buffer, 23, 'Cumulative Stats')
 	rec_cumulative.to_excel(writer, sheet_name = i, startrow = 2 + vertical_buffer, startcol = 22)
+
+
+
+# ADD HISTORICAL DATA SHEET
+
+worksheet = workbook.add_worksheet('Historical')
+writer.sheets['Historical'] = worksheet
+historical_all_stats.to_excel(writer, sheet_name = 'Historical', startrow = 0, startcol = 0)
+
+
+# ADD RAW DATA SHEET
+
+worksheet = workbook.add_worksheet('Raw')
+writer.sheets['Raw'] = worksheet
+
+raw_data.to_excel(writer, sheet_name = 'Raw', startrow = 0, startcol = 0)
+
+
+
+
 
 writer.save()
 
@@ -238,7 +296,4 @@ Master Chief
 ####################################    
 
 send_mail(sender, mailing_list, subject, body, server, port, gmail_user, gmail_password)
-
-print('\n\n\n')
-
 
