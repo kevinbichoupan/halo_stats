@@ -210,7 +210,7 @@ def send_mail(send_from,send_to,subject,text,server,port,username,password,isTls
     
 
 ####################################
-# Define Function for Sending Emails
+# Define Parameters for  Emails
 ####################################    
 
 config = configparser.ConfigParser()
@@ -234,7 +234,7 @@ Master Chief
 """
 
 ####################################
-# Define Function for Sending Emails
+# Sending Email
 ####################################    
 
 send_mail(sender, mailing_list, subject, body, server, port, gmail_user, gmail_password)

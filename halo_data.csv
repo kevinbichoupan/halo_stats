@@ -303,3 +303,235 @@
 3/16/21,Guardian,5,Rat,Red,14,14,6,12,Loss
 3/16/21,Guardian,5,Reif,Red,11,11,9,12,Loss
 3/16/21,Guardian,5,Nick,Red,5,5,10,16,Loss
+3/23/21,Guardian,1,Kev,Red,16,16,9,10,Win
+3/23/21,Guardian,1,Foster,Red,16,16,7,15,Win
+3/23/21,Guardian,1,Tape,Red,12,12,7,10,Win
+3/23/21,Guardian,1,JDO,Red,6,6,13,11,Win
+3/23/21,Guardian,1,Monkey,Blue,23,23,6,16,Loss
+3/23/21,Guardian,1,Reif,Blue,14,14,4,16,Loss
+3/23/21,Guardian,1,Nick,Blue,5,5,7,9,Loss
+3/23/21,Guardian,1,Rat,Blue,4,4,9,9,Loss
+3/23/21,Guardian,2,Foster,Red,16,16,5,9,Win
+3/23/21,Guardian,2,Kev,Red,13,13,9,13,Win
+3/23/21,Guardian,2,JDO,Red,11,11,11,8,Win
+3/23/21,Guardian,2,Tape,Red,10,10,8,7,Win
+3/23/21,Guardian,2,Nick,Blue,11,11,10,12,Loss
+3/23/21,Guardian,2,Rat,Blue,9,9,8,12,Loss
+3/23/21,Guardian,2,Monkey,Blue,9,10,9,15,Loss
+3/23/21,Guardian,2,Reif,Blue,7,7,7,12,Loss
+3/23/21,Guardian,3,Foster,Red,15,15,8,15,Win
+3/23/21,Guardian,3,Kev,Red,13,14,5,16,Win
+3/23/21,Guardian,3,Tape,Red,13,13,4,6,Win
+3/23/21,Guardian,3,JDO,Red,9,9,11,10,Win
+3/23/21,Guardian,3,Monkey,Blue,15,15,5,15,Loss
+3/23/21,Guardian,3,Rat,Blue,14,14,2,11,Loss
+3/23/21,Guardian,3,Nick,Blue,9,9,8,15,Loss
+3/23/21,Guardian,3,Reif,Blue,8,8,9,10,Loss
+3/23/21,Blackout,4,JDO,Red,17,18,2,3,Win
+3/23/21,Blackout,4,Foster,Red,12,12,4,5,Win
+3/23/21,Blackout,4,Kev,Red,12,12,5,9,Win
+3/23/21,Blackout,4,Tape,Red,9,9,5,8,Win
+3/23/21,Blackout,4,Rat,Blue,10,10,3,11,Loss
+3/23/21,Blackout,4,Reif,Blue,6,6,10,16,Loss
+3/23/21,Blackout,4,Monkey,Blue,5,5,5,15,Loss
+3/23/21,Blackout,4,Nick,Blue,3,3,7,9,Loss
+3/23/21,Blackout,5,Rat,Blue,15,15,9,12,Win
+3/23/21,Blackout,5,Monkey,Blue,15,15,5,7,Win
+3/23/21,Blackout,5,Nick,Blue,12,12,3,8,Win
+3/23/21,Blackout,5,Reif,Blue,8,8,11,14,Win
+3/23/21,Blackout,5,Kev,Red,15,15,6,14,Loss
+3/23/21,Blackout,5,Tape,Red,12,12,9,12,Loss
+3/23/21,Blackout,5,JDO,Red,7,7,11,13,Loss
+3/23/21,Blackout,5,Foster,Red,7,7,8,11,Loss
+3/23/21,Blackout,6,Rat,Blue,21,21,4,15,Win
+3/23/21,Blackout,6,Monkey,Blue,12,12,10,12,Win
+3/23/21,Blackout,6,Nick,Blue,9,9,9,10,Win
+3/23/21,Blackout,6,Reif,Blue,8,8,12,9,Win
+3/23/21,Blackout,6,Kev,Red,15,15,7,16,Loss
+3/23/21,Blackout,6,JDO,Red,14,14,7,14,Loss
+3/23/21,Blackout,6,Foster,Red,14,14,8,8,Loss
+3/23/21,Blackout,6,Tape,Red,3,3,10,12,Loss
+3/23/21,Blackout,7,Kev,Red,20,20,6,20,Win
+3/23/21,Blackout,7,JDO,Red,19,19,3,8,Win
+3/23/21,Blackout,7,Foster,Red,7,7,13,10,Win
+3/23/21,Blackout,7,Tape,Red,4,5,8,8,Win
+3/23/21,Blackout,7,Rat,Blue,14,16,3,13,Loss
+3/23/21,Blackout,7,Monkey,Blue,13,14,8,17,Loss
+3/23/21,Blackout,7,Nick,Blue,8,8,11,15,Loss
+3/23/21,Blackout,7,Reif,Blue,7,7,11,9,Loss
+3/23/21,Blackout,8,JDO,Red,20,20,6,14,Win
+3/23/21,Blackout,8,Foster,Red,16,16,3,5,Win
+3/23/21,Blackout,8,Kev,Red,9,9,15,17,Win
+3/23/21,Blackout,8,Tape,Red,5,5,8,7,Win
+3/23/21,Blackout,8,Monkey,Blue,13,14,7,18,Loss
+3/23/21,Blackout,8,Nick,Blue,12,12,5,8,Loss
+3/23/21,Blackout,8,Rat,Blue,9,9,7,12,Loss
+3/23/21,Blackout,8,Reif,Blue,8,8,5,13,Loss
+3/23/21,The Pit,9,Foster,Red,18,18,5,9,Win
+3/23/21,The Pit,9,Kev,Red,12,12,8,15,Win
+3/23/21,The Pit,9,JDO,Red,11,11,4,9,Win
+3/23/21,The Pit,9,Tape,Red,9,9,8,9,Win
+3/23/21,The Pit,9,Monkey,Blue,20,20,4,12,Loss
+3/23/21,The Pit,9,Reif,Blue,9,10,10,13,Loss
+3/23/21,The Pit,9,Rat,Blue,9,9,6,17,Loss
+3/23/21,The Pit,9,Nick,Blue,3,3,6,9,Loss
+3/23/21,The Pit,10,JDO,Red,19,19,6,8,Win
+3/23/21,The Pit,10,Kev,Red,16,16,7,12,Win
+3/23/21,The Pit,10,Foster,Red,9,9,5,12,Win
+3/23/21,The Pit,10,Tape,Red,6,6,6,10,Win
+3/23/21,The Pit,10,Monkey,Blue,15,15,9,16,Loss
+3/23/21,The Pit,10,Reif,Blue,15,15,5,10,Loss
+3/23/21,The Pit,10,Nick,Blue,7,7,6,8,Loss
+3/23/21,The Pit,10,Rat,Blue,5,5,8,16,Loss
+4/6/21,Guardian,1,JDO,Blue,16,16,9,9,Win
+4/6/21,Guardian,1,Reif,Blue,14,14,6,12,Win
+4/6/21,Guardian,1,Kev,Blue,13,13,8,13,Win
+4/6/21,Guardian,1,Nick,Blue,7,7,7,5,Win
+4/6/21,Guardian,1,Foster,Red,11,11,7,10,Loss
+4/6/21,Guardian,1,Rat,Red,10,10,12,13,Loss
+4/6/21,Guardian,1,Tape,Red,9,9,5,13,Loss
+4/6/21,Guardian,1,Monkey,Red,8,9,11,15,Loss
+4/6/21,Guardian,2,Rat,Red,17,17,9,12,Win
+4/6/21,Guardian,2,Foster,Red,12,12,13,4,Win
+4/6/21,Guardian,2,Monkey,Red,11,11,7,13,Win
+4/6/21,Guardian,2,Tape,Red,10,10,11,7,Win
+4/6/21,Guardian,2,JDO,Blue,12,12,8,13,Loss
+4/6/21,Guardian,2,Reif,Blue,9,9,2,12,Loss
+4/6/21,Guardian,2,Nick,Blue,8,8,5,12,Loss
+4/6/21,Guardian,2,Kev,Blue,7,7,6,13,Loss
+4/6/21,Guardian,3,Kev,Blue,14,14,11,12,Win
+4/6/21,Guardian,3,Reif,Blue,14,14,12,13,Win
+4/6/21,Guardian,3,Nick,Blue,12,13,5,11,Win
+4/6/21,Guardian,3,JDO,Blue,10,12,15,14,Win
+4/6/21,Guardian,3,Foster,Red,19,19,5,10,Loss
+4/6/21,Guardian,3,Rat,Red,12,12,10,18,Loss
+4/6/21,Guardian,3,Tape,Red,8,8,7,10,Loss
+4/6/21,Guardian,3,Monkey,Red,8,8,7,15,Loss
+4/6/21,Guardian,4,Reif,Blue,17,17,3,8,Win
+4/6/21,Guardian,4,JDO,Blue,14,14,7,9,Win
+4/6/21,Guardian,4,Nick,Blue,13,13,9,13,Win
+4/6/21,Guardian,4,Kev,Blue,6,6,11,7,Win
+4/6/21,Guardian,4,Tape,Red,12,12,5,8,Loss
+4/6/21,Guardian,4,Rat,Red,10,10,8,19,Loss
+4/6/21,Guardian,4,Foster,Red,9,9,8,10,Loss
+4/6/21,Guardian,4,Monkey,Red,5,6,9,14,Loss
+4/6/21,The Pit,5,Reif,Blue,13,13,5,14,Win
+4/6/21,The Pit,5,JDO,Blue,13,13,6,11,Win
+4/6/21,The Pit,5,Kev,Blue,13,13,7,10,Win
+4/6/21,The Pit,5,Nick,Blue,11,11,6,7,Win
+4/6/21,The Pit,5,Foster,Red,13,13,7,6,Loss
+4/6/21,The Pit,5,Rat,Red,10,10,10,15,Loss
+4/6/21,The Pit,5,Tape,Red,10,10,8,11,Loss
+4/6/21,The Pit,5,Monkey,Red,9,9,11,18,Loss
+4/6/21,The Pit,6,Reif,Blue,17,17,8,14,Win
+4/6/21,The Pit,6,JDO,Blue,13,13,4,10,Win
+4/6/21,The Pit,6,Kev,Blue,11,11,10,17,Win
+4/6/21,The Pit,6,Nick,Blue,9,9,9,6,Win
+4/6/21,The Pit,6,Foster,Red,17,17,5,10,Loss
+4/6/21,The Pit,6,Monkey,Red,13,13,9,17,Loss
+4/6/21,The Pit,6,Rat,Red,10,10,9,16,Loss
+4/6/21,The Pit,6,Tape,Red,7,7,8,7,Loss
+4/6/21,Blackout,7,Foster,Red,17,17,9,12,Win
+4/6/21,Blackout,7,Monkey,Red,12,12,8,13,Win
+4/6/21,Blackout,7,Tape,Red,11,11,6,5,Win
+4/6/21,Blackout,7,Rat,Red,10,11,10,13,Win
+4/6/21,Blackout,7,Reif,Blue,15,15,7,16,Loss
+4/6/21,Blackout,7,JDO,Blue,12,12,7,11,Loss
+4/6/21,Blackout,7,Nick,Blue,10,10,7,10,Loss
+4/6/21,Blackout,7,Kev,Blue,4,5,5,15,Loss
+4/6/21,Blackout,8,Monkey,Red,18,18,12,13,Win
+4/6/21,Blackout,8,Foster,Red,14,14,6,3,Win
+4/6/21,Blackout,8,Rat,Red,12,12,7,11,Win
+4/6/21,Blackout,8,Tape,Red,6,6,12,11,Win
+4/6/21,Blackout,8,JDO,Blue,16,16,6,9,Loss
+4/6/21,Blackout,8,Reif,Blue,10,10,8,17,Loss
+4/6/21,Blackout,8,Kev,Blue,7,7,6,13,Loss
+4/6/21,Blackout,8,Nick,Blue,5,5,5,11,Loss
+4/6/21,Boundless,9,JDO,Blue,15,15,6,7,Win
+4/6/21,Boundless,9,Reif,Blue,12,12,6,13,Win
+4/6/21,Boundless,9,Nick,Blue,12,12,8,10,Win
+4/6/21,Boundless,9,Kev,Blue,11,11,11,17,Win
+4/6/21,Boundless,9,Monkey,Red,18,18,4,14,Loss
+4/6/21,Boundless,9,Foster,Red,15,15,6,12,Loss
+4/6/21,Boundless,9,Rat,Red,8,8,7,13,Loss
+4/6/21,Boundless,9,Tape,Red,6,6,11,11,Loss
+4/6/21,Boundless,10,JDO,Blue,17,17,6,9,Win
+4/6/21,Boundless,10,Nick,Blue,14,14,4,12,Win
+4/6/21,Boundless,10,Reif,Blue,13,13,4,7,Win
+4/6/21,Boundless,10,Kev,Blue,6,6,11,11,Win
+4/6/21,Boundless,10,Rat,Red,12,12,10,16,Loss
+4/6/21,Boundless,10,Tape,Red,10,10,6,11,Loss
+4/6/21,Boundless,10,Monkey,Red,9,9,10,13,Loss
+4/6/21,Boundless,10,Foster,Red,8,8,7,10,Loss
+4/6/21,Guardian,11,Monkey,Red,17,17,8,13,Win
+4/6/21,Guardian,11,Rat,Red,14,14,10,14,Win
+4/6/21,Guardian,11,Tape,Red,10,10,9,7,Win
+4/6/21,Guardian,11,Foster,Red,9,9,7,7,Win
+4/6/21,Guardian,11,JDO,Blue,12,12,10,13,Loss
+4/6/21,Guardian,11,Nick,Blue,12,12,8,11,Loss
+4/6/21,Guardian,11,Reif,Blue,10,10,5,16,Loss
+4/6/21,Guardian,11,Kev,Blue,7,7,15,10,Loss
+4/13/21,Guardian,1,JDO,Blue,15,15,5,13,Win
+4/13/21,Guardian,1,Reif,Blue,15,15,8,9,Win
+4/13/21,Guardian,1,Tape,Blue,12,12,8,14,Win
+4/13/21,Guardian,1,Rat,Blue,8,8,7,12,Win
+4/13/21,Guardian,1,Foster,Red,15,15,5,11,Loss
+4/13/21,Guardian,1,Nick,Red,15,15,4,8,Loss
+4/13/21,Guardian,1,Monkey,Red,14,14,7,16,Loss
+4/13/21,Guardian,1,Kev,Red,4,4,8,15,Loss
+4/13/21,Guardian,2,Reif,Blue,17,17,8,8,Win
+4/13/21,Guardian,2,JDO,Blue,14,14,9,12,Win
+4/13/21,Guardian,2,Tape,Blue,12,12,11,7,Win
+4/13/21,Guardian,2,Rat,Blue,7,8,9,13,Win
+4/13/21,Guardian,2,Foster,Red,12,12,8,7,Loss
+4/13/21,Guardian,2,Monkey,Red,12,12,10,20,Loss
+4/13/21,Guardian,2,Kev,Red,9,9,5,12,Loss
+4/13/21,Guardian,2,Nick,Red,6,6,9,12,Loss
+4/13/21,Guardian,3,Foster,Red,14,14,11,11,Win
+4/13/21,Guardian,3,Monkey,Red,13,13,9,13,Win
+4/13/21,Guardian,3,Kev,Red,12,12,15,18,Win
+4/13/21,Guardian,3,Nick,Red,11,11,8,6,Win
+4/13/21,Guardian,3,Reif,Blue,20,20,3,4,Loss
+4/13/21,Guardian,3,JDO,Blue,13,13,9,18,Loss
+4/13/21,Guardian,3,Tape,Blue,8,9,9,13,Loss
+4/13/21,Guardian,3,Rat,Blue,6,6,14,16,Loss
+4/13/21,Guardian,4,Monkey,Red,15,16,10,14,Win
+4/13/21,Guardian,4,Kev,Red,15,15,10,14,Win
+4/13/21,Guardian,4,Foster,Red,14,14,11,12,Win
+4/13/21,Guardian,4,Nick,Red,6,6,6,10,Win
+4/13/21,Guardian,4,JDO,Blue,15,15,9,10,Loss
+4/13/21,Guardian,4,Rat,Blue,13,13,10,11,Loss
+4/13/21,Guardian,4,Reif,Blue,12,12,7,13,Loss
+4/13/21,Guardian,4,Tape,Blue,9,9,11,17,Loss
+4/13/21,Guardian,5,JDO,Blue,16,16,8,10,Win
+4/13/21,Guardian,5,Rat,Blue,15,15,11,18,Win
+4/13/21,Guardian,5,Tape,Blue,10,10,12,8,Win
+4/13/21,Guardian,5,Reif,Blue,9,9,12,12,Win
+4/13/21,Guardian,5,Monkey,Red,19,20,10,13,Loss
+4/13/21,Guardian,5,Foster,Red,10,10,11,10,Loss
+4/13/21,Guardian,5,Kev,Red,10,10,12,17,Loss
+4/13/21,Guardian,5,Nick,Red,8,8,8,11,Loss
+4/13/21,The Pit,6,Reif,Blue,14,14,14,12,Win
+4/13/21,The Pit,6,Rat,Blue,13,13,8,12,Win
+4/13/21,The Pit,6,JDO,Blue,12,12,10,12,Win
+4/13/21,The Pit,6,Tape,Blue,11,11,10,10,Win
+4/13/21,The Pit,6,Kev,Red,14,14,5,14,Loss
+4/13/21,The Pit,6,Monkey,Red,13,13,7,15,Loss
+4/13/21,The Pit,6,Foster,Red,11,11,6,12,Loss
+4/13/21,The Pit,6,Nick,Red,8,8,5,9,Loss
+4/13/21,The Pit,7,Monkey,Red,21,21,6,8,Win
+4/13/21,The Pit,7,Kev,Red,13,13,4,10,Win
+4/13/21,The Pit,7,Foster,Red,9,9,12,6,Win
+4/13/21,The Pit,7,Nick,Red,7,7,7,9,Win
+4/13/21,The Pit,7,JDO,Blue,11,11,5,11,Loss
+4/13/21,The Pit,7,Reif,Blue,10,10,5,12,Loss
+4/13/21,The Pit,7,Tape,Blue,7,7,6,12,Loss
+4/13/21,The Pit,7,Rat,Blue,5,5,8,15,Loss
+4/13/21,The Pit,8,JDO,Blue,16,16,7,9,Win
+4/13/21,The Pit,8,Rat,Blue,13,13,10,15,Win
+4/13/21,The Pit,8,Tape,Blue,11,11,9,11,Win
+4/13/21,The Pit,8,Reif,Blue,10,10,11,11,Win
+4/13/21,The Pit,8,Foster,Red,14,14,6,10,Loss
+4/13/21,The Pit,8,Kev,Red,14,14,6,19,Loss
+4/13/21,The Pit,8,Monkey,Red,10,10,11,17,Loss
+4/13/21,The Pit,8,Nick,Red,8,8,6,4,Loss
